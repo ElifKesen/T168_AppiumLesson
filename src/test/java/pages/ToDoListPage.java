@@ -28,4 +28,25 @@ public class ToDoListPage {
     @FindBy(id = "todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input")
     public WebElement TaskWriteBox;
 
+    @FindBy(id = "todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_btn")
+    public WebElement TaskSaveButton;
+
+    @FindBy(id = "todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_text")
+    public WebElement TaskSpace;
+
+    @FindBy(id = "todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_detail_more")
+    public WebElement ThreePunkt;
+
+    @FindBy(id = "todolist.scheduleplanner.dailyplanner.todo.reminders:id/detail_delete")
+    public WebElement DeleteText;
+
+    @FindBy(id = "todolist.scheduleplanner.dailyplanner.todo.reminders:id/dialog_confirm")
+    public WebElement DeleteConfirm;
+
+
+
+
+
+
+
 }
